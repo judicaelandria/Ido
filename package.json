@@ -1,0 +1,24 @@
+{
+  "name": "onething",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist-electron/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "vite",
+    "start:detached": "cross-env DETACHED=yep vite"
+  },
+  "author": "Judicaël Andria",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^22.0.0",
+    "menubar": "^9.2.3",
+    "uuid": "^9.0.0",
+    "vite": "^4.0.0",
+    "vite-plugin-electron": "^0.10.4"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.0",
+    "cross-env": "^7.0.3"
+  }
+}
